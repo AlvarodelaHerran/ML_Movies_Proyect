@@ -1,0 +1,38 @@
+# Ignorar la carpeta del dataset
+# Esto ignorará CUALQUIER archivo dentro de la carpeta 'data/'
+data/
+
+# --- Alternativa ---
+# Si SÍ quieres subir la carpeta 'data' pero NO los CSV grandes:
+# data/*.csv
+# data/*.json
+# !data/README.md  <-- (Un ! "des-ignora" un archivo)
+
+# Archivos de entorno virtual de Python
+/venv
+/.venv
+/env
+/ENV
+.env
+
+# Archivos de cache y compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Checkpoints de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Modelos entrenados (suelen ser muy pesados)
+*.pkl
+*.h5
+models/
