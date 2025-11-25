@@ -1,6 +1,6 @@
 # Ignorar la carpeta del dataset
 # Esto ignorará CUALQUIER archivo dentro de la carpeta 'data/'
-data/
+data/movies_dataset.csv
 
 # --- Alternativa ---
 # Si SÍ quieres subir la carpeta 'data' pero NO los CSV grandes:
